@@ -4,9 +4,6 @@
 CREATE DATABASE IF NOT EXISTS inventario;
 
 use inventario;
-
-ALTER TABLE ordenes
-  DROP COLUMN producto_producto_id;
   
 CREATE TABLE IF NOT EXISTS clientes
 ( 
